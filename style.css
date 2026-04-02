@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+#noteList {
+    margin-top: 20px;
+    padding: 0;
+}
+
+#noteList li {
+    list-style: none;
+    background: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+}
